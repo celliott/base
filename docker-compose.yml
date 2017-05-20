@@ -1,6 +1,6 @@
 version: '2'
 services:
-  nginx:
+  base:
     build: .
     image: ${REGISTRY}/${ORGANIZATION}/${IMAGE}:${VERSION}
     container_name: ${IMAGE}
