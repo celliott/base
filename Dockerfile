@@ -32,7 +32,7 @@ RUN apt-get update && \
       openssh-server \
       openssh-sftp-server && \
     apt-get -y update && \
-    curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash - && \
+      curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash - && \
     apt-get install -y nodejs && \
-  apt-get clean && \
-    rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+    apt-get clean && \
+      rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
